@@ -6,9 +6,10 @@
 /*   By: aliao-tr <aliao-tr@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/18 11:59:43 by aliao-tr          #+#    #+#             */
-/*   Updated: 2026/05/25 10:24:51 by aliao-tr         ###   ########.fr       */
+/*   Updated: 2026/06/09 17:14:01 by aliao-tr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+#include "libft.h"
 
 int	ft_isalpha(int c)
 {

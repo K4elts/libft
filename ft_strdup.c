@@ -6,10 +6,9 @@
 /*   By: aliao-tr <aliao-tr@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/27 17:12:27 by aliao-tr          #+#    #+#             */
-/*   Updated: 2026/05/27 17:25:38 by aliao-tr         ###   ########.fr       */
+/*   Updated: 2026/06/09 17:14:58 by aliao-tr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "libft.h"
 
 char	*ft_strdup(const char *s)

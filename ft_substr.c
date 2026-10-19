@@ -6,7 +6,7 @@
 /*   By: aliao-tr <aliao-tr@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/28 11:42:28 by aliao-tr          #+#    #+#             */
-/*   Updated: 2026/06/01 13:05:35 by aliao-tr         ###   ########.fr       */
+/*   Updated: 2026/06/08 11:54:55 by aliao-tr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -25,7 +25,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (len > slen - start)
 		len = slen - start;
 	ptr = malloc(sizeof(char) * len + 1);
-	if (!ptr)
+	if (ptr == NULL)
 		return (NULL);
 	i = 0;
 	while (s[start + i] != '\0' && i < len)
